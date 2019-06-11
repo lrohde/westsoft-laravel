@@ -8,7 +8,7 @@ For use, execute:
 
 Copy the project files to /var/www/app and run the image (It's recommended to use the [docker-compose](https://docs.docker.com/compose/)):
 
-```docker run westsoft/php:7.2-nginx -v .:/var/www/app -e ENVIRONMENTS_VARIABLE```
+```docker run --name container_name westsoft/php:7.2-nginx -v .:/var/www/app -e ENVIRONMENTS_VARIABLE```
 
 **Obs:** Don't forget the laravel environments, the application will not run without them.
 
