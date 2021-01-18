@@ -1,14 +1,3 @@
-###
-# westsoftware
-#
-# Repository:    PHP
-# Image:         PHP-FPM + Nginx
-# Version:       7.2.x
-# Strategy:      PHP From PHP-Alpine Repository (CODECASTS) + Official Nginx
-# Base distro:   Alpine 3.8
-#
-# Inspired by official PHP images.
-#
 FROM  westsoft/php:7.2
 
 # Repository/Image Maintainer
